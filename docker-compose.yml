@@ -10,9 +10,9 @@ services:
     restart: always
     environment:
       - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_DATABASE=adms_db
-      - MYSQL_USER=ami
-      - MYSQL_PASSWORD=Indonesia45
+      - MYSQL_DATABASE=django_docker
+      - MYSQL_USER=django
+      - MYSQL_PASSWORD=django
 
   nginx:
     image: nginx:alpine
